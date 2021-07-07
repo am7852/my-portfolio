@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Abhisek Mahakur</title>
+		<link rel="icon" href="images/target.png" type="image/png" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Header -->
+		<nav class="header">
+			<div class="mobile-header">
+				<span class="header__heading">Abhisek Mahakur</span>
+				<span onclick="mobile_menu()"
+					><img src="images/hero/menu.png"
+				/></span>
+			</div>
+			<nav class="container">
+				<a
+					href="#experience"
+					id="nav_experience"
+					class="header__quick_link"
+					>Experience</a
+				>
+				<a href="#skills" id="nav_skills" class="header__quick_link"
+					>Skills</a
+				>
+				<a
+					href="#education"
+					id="nav_education"
+					class="header__quick_link"
+					>Education</a
+				>
+				<a href="#credentials" id="nav_credentials" class="header__quick_link"
+					>Credentials</a>
+
+				<a href="#clients" id="nav_clients" class="header__quick_link"
+					>Clients</a
+				>
+				<a href="#resume" id="nav_resume" class="header__quick_link"
+					>Resume</a
+				>
+				<a href="#contact" id="nav_contact" class="header__quick_link"
+					>Contact</a
+				>
+			</nav>
+
+			<div class="mobile-menu" id="mobile_menu">
+				<nav style="display: flex; flex-direction: column">
+					<a
+						href="#experience"
+						onclick="mobile_menu()"
+						id="mob_nav_experience"
+						class="header__quick_link"
+						>Experience</a
+					>
+					<a
+						href="#skills"
+						onclick="mobile_menu()"
+						id="mob_nav_skills"
+						class="header__quick_link"
+						>Skills</a
+					>
+					<a
+						href="#education"
+						onclick="mobile_menu()"
+						id="mob_nav_education"
+						class="header__quick_link"
+						>Education</a
+					>
+					<a
+						href="#credentials"
+						onclick="mobile_menu()"
+						id="mob_nav_credentials"
+						class="header__quick_link"
+						>Credentials</a
+					>
+					<a
+						href="#clients"
+						onclick="mobile_menu()"
+						id="mob_nav_clients"
+						class="header__quick_link"
+						>Clients</a
+					>
+					<a
+						href="#resume"
+						onclick="mobile_menu()"
+						id="mob_nav_resume"
+						class="header__quick_link"
+						>Resume</a
+					>
+					<a
+						href="#contact"
+						onclick="mobile_menu()"
+						id="mob_nav_contact"
+						class="header__quick_link"
+						>Contact</a
+					>
+					<a
+						onclick="mobile_menu()"
+						class="header__quick_link"
+						style="font-size: 1.2rem"
+						>Close</a
+					>
+				</nav>
+				<div class="mobile_menu_footer">Abhisek</div>
+			</div>
+		</nav>
+
+		<!-- To adjust for Position:Fixed Issues -->
+		<nav
+			class="header heading__font"
+			style="position: relative; opacity: 0; pointer-events: none"
+		>
+			<div><span class="header__heading">Abhisek</span></div>
+			<nav class="container">|</nav>
+		</nav>
+
+		<!-- Hero -->
+		<div class="hero__wrapper">
+			<div class="hero">
+				<div class="hero__card">
+					<div class="hero__card__top">
+						<div
+							id="hero__card__left"
+							class="hero__card__left animate__animated"
+						></div>
+						<div
+							id="hero__card__right"
+							class="hero__card__right animate__animated"
+						>
+							<div>
+								<div class="hero__card__right__name">
+									Abhisek Mahakur
+								</div>
+								<div class="hero__card__right__profession">
+									SOFTWARE DEVELOPER
+								</div>
+							</div>
+							<div>
+								<div class="hero__card__right__heading">
+									Phone:
+								</div>
+								<div>+91-6203258168</div>
+							</div>
+							<div>
+								<div class="hero__card__right__heading">
+									Email:
+								</div>
+								<div>amahakur343@gmail.com</div>
+							</div>
+							<div>
+								<div class="hero__card__right__heading">
+									Address:
+								</div>
+								<div>A-2/14, UCIL Colony, Jaduguda</div>
+								<div>East Singhbhum, Jharkhand - 832102</div>
+							</div>
+							<div>
+								<div class="hero__card__right__heading">
+									Date of Birth:
+								</div>
+								<div>20th December, 2000</div>
+							</div>
+						</div>
+					</div>
+					<div
+						id="hero__card__bottom"
+						class="hero__card__bottom animate__animated"
+					>
+						<span>
+							<a
+								href="https://www.linkedin.com/in/abhisek-mahakur-7b8b0919b/"
+								target="_blank"
+							>
+								<img
+									src="images/social/linkedin.png"
+									alt="Linked In Profile"
+									class="social_link_icons"
+								/>
+							</a>
+						</span>
+						<span>
+							<a
+								href="https://github.com/am7852"
+								target="_blank"
+							>
+								<img
+									src="images/social/github.png"
+									alt="Github Profile"
+									class="social_link_icons"
+								/>
+							</a>
+						</span>
+						<span>
+							<a
+								href="mailto:amahakur343@gmail.com"
+								target="_blank"
+							>
+								<img
+									src="images/social/email.png"
+									alt="Email"
+									class="social_link_icons"
+								/>
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="hero__text">
+				<div class="hero__text__heading">Hello! I'm Abhisek</div>
+				<div class="hero__text__body">
+					<div>
+						An avid programmer and reader, I love problem solving
+						and programming is just that.
+					</div>
+					<div>
+						I spend my days trying to create websites and
+						applications to help others grow their business, brand
+						name or simply have a presence incorporating everything
+						new from Web to Flutter based apps.
+					</div>
+					<div>
+						I enjoy travelling and basketball, and a great
+						discussion on technology and industry.
+					</div>
+					<div>Always on the lookout to learn more!</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Experience -->
+		<div id="experience">
+			<div class="experience__heading">EXPERIENCE</div>
+			<div class="experience__body">
+				<div class="experience__body__exp">
+					<div class="experience__body__exp__left">
+						<div class="experience__body__exp__left__date">
+							Jan - Mar 2020
+						</div>
+						<div class="experience__body__exp__left__position">
+							Web Developer
+						</div>
+					</div>
+					<div class="experience__body__exp__right">
+						<div class="experience__body__exp__right__company-name">
+							Techfest, IIT Bombay
+						</div>
+						<div class="experience__body__exp__right__text">
+							Worked as a Web developer to develop several
+							Websites portal involving both static and dynamic.
+							Used React, Node, Django, PHP, etc. for developing
+							the websites.
+						</div>
+					</div>
+				</div>
+				<div class="experience__body__exp">
+					<div class="experience__body__exp__left">
+						<div class="experience__body__exp__left__date">
+							May - June 2020
+						</div>
+						<div class="experience__body__exp__left__position">
+							Portfolio Developer
+						</div>
+					</div>
+					<div class="experience__body__exp__right">
+						<div class="experience__body__exp__right__company-name">
+							Freelancer
+						</div>
+						<div class="experience__body__exp__right__text">
+							Built a portfolio website for a well known local
+							furniture buisness. Built a brand presence for
+							them and kick started their online journey.
+							Learned a lot about the nature of clients while
+							working closely with them.
+						</div>
+					</div>
+				</div>
+				<div class="experience__body__exp">
+					<div class="experience__body__exp__left">
+						<div class="experience__body__exp__left__date">
+							May - Jul 2020
+						</div>
+						<div class="experience__body__exp__left__position">
+							Campus Ambassador
+						</div>
+					</div>
+					<div class="experience__body__exp__right">
+						<div class="experience__body__exp__right__company-name">
+							Verzeo
+						</div>
+						<div class="experience__body__exp__right__text">
+							Got an opportunity to become a brand ambassador for
+							an organisation. Built a Website using Wordpress
+							working heavly in the PHP world and managing Server
+							work, SSL Certificates and made markable contributions
+							to the organisation.
+						</div>
+					</div>
+				</div>
+				<div class="experience__body__exp">
+					<div class="experience__body__exp__left">
+						<div class="experience__body__exp__left__date">
+							Apr - June 2021
+						</div>
+						<div class="experience__body__exp__left__position">
+							Angular Web Portal Developer
+						</div>
+					</div>
+					<div class="experience__body__exp__right">
+						<div class="experience__body__exp__right__company-name">
+							Nitara
+						</div>
+						<div class="experience__body__exp__right__text">
+							Enhanced their web portal using Angular for the 
+							inner working of Nitara NGO. Before this, their 
+							workflow was limited based with no data analysis
+							whatsover. Helped them build a strong foundation
+							for easier everyday workings.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Skills -->
+		<div id="skills">
+			<div class="skills__heading">SKILLS</div>
+			<div class="skills__body">
+				<div class="skills__body__search">
+					<input
+						type="search"
+						placeholder="Search Skill"
+						id="skills__body__search__input"
+						class="skills__body__search__input"
+					/>
+					<button onclick="searchSkill()">
+						<img src="images/skills/search.png" alt="Search" />
+					</button>
+				</div>
+				<div class="skills__body__legend">
+					<div class="advanced legend__item"></div>
+					<div>Advanced</div>
+					<div class="intermediate legend__item"></div>
+					<div>Intermediate</div>
+					<div class="basic legend__item"></div>
+					<div>Basic</div>
+				</div>
+				<div
+					class="skills__body__skill-pills"
+					id="skills__body__skill_pills"
+				></div>
+			</div>
+		</div>
+
+		<!-- Education -->
+		<div id="education">
+			<div class="experience__heading">EDUCATION</div>
+			<div class="experience__body">
+				<div class="experience__body__exp">
+					<div class="experience__body__exp__left">
+						<div class="experience__body__exp__left__date">
+							2006-2016
+						</div>
+						<div class="experience__body__exp__left__position">
+							Grade I - X(CGPA: 10)
+						</div>
+					</div>
+					<div class="experience__body__exp__right">
+						<div class="experience__body__exp__right__company-name">
+							Atomic Energy Central School-1, Jaduguda
+						</div>
+					</div>
+				</div>
+				<div class="experience__body__exp">
+					<div class="experience__body__exp__left">
+						<div class="experience__body__exp__left__date">
+							2016-2018
+						</div>
+						<div class="experience__body__exp__left__position">
+							Grade XI - XII(Percentage: 91.2%)
+						</div>
+					</div>
+					<div class="experience__body__exp__right">
+						<div class="experience__body__exp__right__company-name">
+							Atomic Energy Central School-1, Jaduguda
+						</div>
+					</div>
+				</div>
+				<div class="experience__body__exp">
+					<div class="experience__body__exp__left">
+						<div class="experience__body__exp__left__date">
+							2019-2023
+						</div>
+						<div class="experience__body__exp__left__position">
+							BTech Computer Science and Engineering(CGPA: 8.7)
+						</div>
+					</div>
+					<div class="experience__body__exp__right">
+						<div class="experience__body__exp__right__company-name">
+							I.K. Gujral Punjab Technical University, Jalandhar
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Credentials -->
+		<div id="credentials">
+			<div class="clients__heading">CREDENTIALS</div>
+			<div class="clients__body">
+				<a href="https://drive.google.com/file/d/1PUh6xyH-U0sPP-AvW6U2i1tAFN_H9ytH/view" target="_blank"
+					><img src="images/credentials/anz-bank.jpg" alt="ANZ"/></a>
+				
+				<a href="404.html" target="_blank"
+					><img src="images/credentials/rpr.jpg" alt="Android Developer"
+				/></a>
+
+				<a href="https://drive.google.com/file/d/1UqDgQbKiQ3xkFN60y52J4RztAyQZxr8h/view?usp=sharing" target="_blank"
+					><img src="images/credentials/micro.jpg" alt="Microsoft"
+				/></a>
+
+				<a href="404.html" target="_blank"
+					><img src="images/credentials/roorkee.jpg" alt="Machine Learning"
+				/></a>
+
+				<a href="https://www.qwiklabs.com/public_profiles/7382acdb-11d5-497d-b4d4-802ebb589e74" target="_blank"
+					><img src="images/credentials/qwiklabs.png" alt="Qwiklabs"
+				/></a>
+						
+				
+			</div>
+		</div>
+
+		<!-- Clients -->
+		<div id="clients">
+			<div class="clients__heading">CLIENTS</div>
+			<div class="clients__body">
+				<a href="https://www.techfest.org/" target="_blank"
+					><img src="images/clients/techfest.jpg" alt="Techfest"
+				/></a>
+				<a href="https://www.freelancer.in/" target="_blank"
+					><img src="images/clients/freelancer.jpg" alt="Freelancer"
+				/></a>
+				<a href="https://www.verzeo.com/" target="_blank"
+					><img src="images/clients/verzeo.png" alt="Verzeo"
+				/></a>
+				<a href="https://nitarafoundation-ngo.ueniweb.com/?utm_campaign=gmb#header" target="_blank"
+					><img src="images/clients/nitara.jpg" alt="Nitara"
+				/></a>
+			</div>
+		</div>
+
+		<!-- Download Resume -->
+		<div id="resume">
+			<div class="resume__heading">RESUME</div>
+			<div class="resume__body">
+				<div style="text-align: center">
+					<span
+						>View my resume on Google Drive or download it as a .PDF
+						file</span
+					>
+				</div>
+				<div class="resume__body__links">
+					<a
+						href="https://drive.google.com/file/d/1GS6j83jrRMsXk81fJbEN0kmpmopVtzYJ/view?usp=sharing"
+						target="_blank"
+					>
+						<img
+							src="images/Resume/Resume - Long.JPG" alt="Resume Long"
+						/>
+						<div>Resume</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact Me -->
+		<div id="contact">
+			<div class="contact__heading">CONTACT ME</div>
+			<div class="contact__body">
+				<div class="contact__body__left">
+					<div class="contact-form">
+						<div><input type="text" placeholder="Name" /></div>
+						<div><input type="text" placeholder="Email" /></div>
+						<div><input type="text" placeholder="Subject" /></div>
+						<div><textarea></textarea></div>
+						<div>
+							<button onclick="alert('Backend not attached yet...sorry for the inconvinience')">
+								Submit
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="contact__body__right">
+					<div>
+						<div class="contact__body__right__name">Abhisek Mahakur</div>
+						<div class="contact__body__right__profession">
+							SOFTWARE DEVELOPER
+						</div>
+					</div>
+					<div>
+						<div class="contact__body__right__heading">Phone:</div>
+						<div>+91-6203258168</div>
+					</div>
+					<div>
+						<div class="contact__body__right__heading">Email:</div>
+						<div>amahakur343@gmail.com</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer>Made with ❤ by Abhisek Mahakur ✌</footer>
+
+		<script>
+			// A bit of JS to do the trick
+			var last_updated_link = "";
+			function update_links() {
+				var clicked = window.location.href.split("#")[1];
+				if (last_updated_link != "") {
+					if (
+						document
+							.querySelector("#nav_" + last_updated_link)
+							.classList.contains("active")
+					)
+						document
+							.querySelector("#nav_" + last_updated_link)
+							.classList.remove("active");
+					if (
+						document
+							.querySelector("#mob_nav_" + last_updated_link)
+							.classList.contains("active")
+					)
+						document
+							.querySelector("#mob_nav_" + last_updated_link)
+							.classList.remove("active");
+				}
+				document
+					.querySelector("#nav_" + clicked)
+					.classList.add("active");
+				document
+					.querySelector("#mob_nav_" + clicked)
+					.classList.add("active");
+				last_updated_link = clicked;
+			}
+			window.addEventListener("hashchange", update_links);
+
+			var mobile_menu_open = false;
+			function mobile_menu() {
+				if (!mobile_menu_open) {
+					mobile_menu_open = true;
+					document.querySelector("#mobile_menu").style.display =
+						"flex";
+				} else {
+					mobile_menu_open = false;
+					document.querySelector("#mobile_menu").style.display =
+						"none";
+				}
+			}
+
+			// Animations according to Device Type
+			document.addEventListener("DOMContentLoaded", function (event) {
+				if (window.innerWidth < 600) {
+					document
+						.querySelector("#hero__card__left")
+						.classList.add("animate__fadeInDown");
+					document
+						.querySelector("#hero__card__right")
+						.classList.add("animate__fadeInUp");
+					document
+						.querySelector("#hero__card__bottom")
+						.classList.add("animate__fadeIn");
+				} else {
+					document.querySelector;
+					document
+						.querySelector("#hero__card__left")
+						.classList.add("animate__fadeInLeft");
+					document
+						.querySelector("#hero__card__right")
+						.classList.add("animate__fadeInRight");
+					document
+						.querySelector("#hero__card__bottom")
+						.classList.add("animate__fadeInUp");
+				}
+			});
+
+			// Skills JS
+			function createPill(item, index, arr) {
+				var div = document.createElement("DIV");
+				div.textContent = Object.keys(item)[0];
+				div.classList.add("pill");
+				div.classList.add(item[div.textContent].toLowerCase());
+				document
+					.getElementById("skills__body__skill_pills")
+					.appendChild(div);
+			}
+
+			skills = [
+				{ "Android Flutter": "Intermediate" },
+				{ "Angular 2+": "Advanced" },
+				{ React: "Intermediate" },
+				{ "D3.js": "Basic" },
+				{ "Charts.js": "Advanced" },
+				{ "Three.js": "Basic" },
+				{ Django: "Advanced" },
+				{ PHP: "Intermediate" },
+				{ Node: "Intermediate" },
+				{ Wordpress: "Advanced" },
+				{ Photoshop: "Intermediate" },
+				{ "Premier Pro": "Basic" },
+				{ "Office Suite": "Intermediate" },
+				{ Figma: "Intermediate" },
+				{ Java: "Intermediate" },
+				{ "C++": "Advanced" },
+				{ C: "Intermediate" },
+				{ Python: "Intermediate" },
+				{ "HTML & CSS": "Intermediate" },
+				{ "Bootstrap": "Intermediate" },
+				{ "Microsoft Office": "Intermediate"},
+				{ English: "Proficent" },
+				{ Hindi: "Mother-Tongue" },
+			];
+
+			skillsToShow = [...skills];
+
+			document.getElementById("skills__body__skill_pills").innerHTML = "";
+			skillsToShow.forEach(createPill);
+
+			function searchSkill() {
+				skillsToShow = [];
+				function findSkill(item, index, array) {
+					var skill = Object.keys(item)[0].toLowerCase();
+					if (skill.includes(key)) {
+						skillsToShow.push(item);
+					}
+				}
+
+				var key = document
+					.getElementById("skills__body__search__input")
+					.value.trim();
+				if (key) {
+					skills.forEach(findSkill);
+				} else {
+					skillsToShow.splice(0, skillsToShow.length);
+					skillsToShow = [...skills];
+				}
+
+				document.getElementById("skills__body__skill_pills").innerHTML =
+					"";
+				if (skillsToShow.length) skillsToShow.forEach(createPill);
+				else {
+					var div = document.createElement("DIV");
+					div.textContent = "No Skills matching Search key";
+					div.classList.add("pill");
+					div.classList.add("advanced");
+					document
+						.getElementById("skills__body__skill_pills")
+						.appendChild(div);
+				}
+			}
+		</script>
+	</body>
+</html>
